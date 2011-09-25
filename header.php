@@ -21,8 +21,8 @@
 
 		<h1 id="blog-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 
-		<form method="get" id="searchform" action="">
-    	<input type="text" name="s" id="s" placeholder="Поиск..." />
+		<form id="searchform">
+			<input type="text" id="s" placeholder="Поиск..." disabled="disabled" />
 		</form>
 
 	</header>
