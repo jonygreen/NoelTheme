@@ -1,0 +1,98 @@
+/*
+Theme Name: NoelTheme
+Theme URI: http://jonygreen.me/noeltheme
+Description: The clean and simple theme for wordpress based on 960 Grid System.
+Author: Noel Khasipov
+Author URI: http://jonygreen.me
+Version: 1.0
+Tags: white, simple, minimal, two-column, fixed-width, light
+*/
+
+/* General styles */
+body {
+	background:#fff;
+	font-family: georgia, serif;
+}
+
+#page {
+	padding: 70px 0;
+}
+
+h1 {
+	font-size: 1.2em;
+	color:#333;
+	line-height:22px;
+	font-weight:normal;
+}
+h2 {
+	font-size: 1.2em;
+	color:#333;
+	line-height:20px;
+	font-weight:normal;
+}
+
+p{
+	font-size: 1.15em;
+	line-height: 1.6em;
+	margin:12px 0;
+}
+
+a {
+	text-decoration: none;
+}
+a:link {
+	color: #343434;
+	text-decoration: none;
+}
+a:visited {
+	color: #343434;
+	text-decoration: none;
+}
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+/* Header */
+header {
+	border-bottom: 1px solid #E6E6E6;
+}
+#blog-title {
+	font-family: Arial,sans-serif;
+	float: left;
+	font-size: 34px;
+	font-weight: bold;
+}
+#searchform {
+	width:200px;
+	float: right;
+	padding-top:22px;
+}	
+#s {
+	width:190px;
+	height: 20px;
+	border:1px solid #e6e6e6;
+	background:#f9f9f9;
+	font-size:14px;
+	padding:2px 3px 3px;
+	float:left;
+	}
+
+/* Content */
+.title {
+	font-family: Arial,sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 26px;
+	padding: 0 0 7px 0;
+}
+
+/* Footer */
+footer {
+	border-top: 1px solid #E6E6E6;
+}
+#copyright {
+	color: #888;
+	font-size: 11px;
+	line-height: 18px;
+}
